@@ -3,6 +3,14 @@ body{
   text-align: center;
 }
 
+h1,h2,h3,h4,h5,h6{
+  font-family: "Montserrat-Bold";
+}
+
+p{
+  color: #8f8f8f;
+}
+
 #title{
   background-color: #ff4c68;
   color: #fff;
@@ -14,18 +22,7 @@ body{
   line-height: 1.5;
 }
 
-h2{
-  font-family: "Montserrat-Bold";
-  font-size: 2rem;
-}
 
-h3{
-  font-family: "Montserrat-Bold";
-}
-
-p{
-  color: #8f8f8f;
-}
 .container-fluid{
   padding: 3% 15% 12%;
 }
@@ -50,8 +47,6 @@ p{
     transform: rotate(0);
   }
 }
-
-
 
 /*Navigation Style */
 
@@ -94,7 +89,6 @@ p{
 }
 
 .featuresbox{
-  text-align: center;
   padding: 5%;
 }
 
@@ -114,7 +108,6 @@ p{
 
   background-color: #ef8172;
   color: #fff;
-  text-align: center;
 }
 
 .carousel{
@@ -127,10 +120,13 @@ p{
   border-radius: 100%;
 }
 
+
+.testimonial-text{
+  font-size: 2rem;
+}
 /*press*/
 
 #press{
-  text-align: center;
   background-color: #ef8172;
   padding-bottom: 5%;
 }
@@ -143,7 +139,6 @@ p{
 /*pricing*/
 
 #pricing{
-  text-align: center;
   padding: 100px;
 }
 
@@ -152,23 +147,16 @@ p{
 }
 
 
-
+.pricing-text{
+  font-size: 2rem;
+}
 /*cta*/
 
 #cta{
-  font-family: "Montserrat-Bold";
   background-color: #ff4c68;
-  text-align: center;
   color: #fff;
   padding: 5% 15% 2%;
 }
-
-
-.cta-heading{
-  font-size: 3.5rem;
-}
-
-
 
 /*footer*/
 
